@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B4EEF3;
+    color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+header img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+nav {
+    background-color: #3498db;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #2980b9;
+}
+.chat-button {
+    background-color: #e26b75; 
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; 
+   
+}
+.chat-button:hover {
+    background-color: #e84118; 
+    transform: scale(1.05);
+}
+.content {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.social-links li {
+    display: inline;
+    margin-right: 1rem;
+}
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.social-links img {
+    width: 30px; /* Ajusta el tamaño si es necesario */
+}
+
+.btn_recursos button {
+    background-color: #007bff;  
+    color: white;             
+    padding: 10px 20px;         
+    border-radius: 5px;         
+    border: none;              
+    font-size: 16px;           
+    cursor: pointer;        
+    transition: background-color 0.3s; 
+  }
+
+  .btn_recursos button:hover {
+    background-color: #0056b3; 
+  }
+
+.ir_chat{
+    background-color: #e26b75; 
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; 
+}
+
+.logoHome{
+    width: 120px;
+}
